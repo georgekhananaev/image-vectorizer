@@ -1,0 +1,62 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*.sublime-*
+
+# Output files
+*.svg
+*.svgz
+!examples/*.svg
+!examples/*.svgz
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Generated documentation
+docs/_build/
+_docs/
+
+# Environment configuration
+.env
+.envrc
+.python-version
+
+# OS specific files
+Thumbs.db
+.directory

@@ -1,0 +1,18 @@
+[project]
+name            = "image-to-svg"
+version         = "0.2.1"
+description     = "High-quality raster→SVG converter (CPU first, optional GPU)"
+requires-python = ">=3.12"
+
+dependencies = [
+    "Pillow>=11.2.1",
+    "numpy>=2.2.5",
+    "opencv-python>=4.11.0.86",
+    "svgwrite>=1.4.3",
+    "scikit-learn>=1.6.1",
+    "webcolors>=24.11.1",
+    "scipy>=1.15.2",
+    "tqdm>=4.65.0",
+    "scour>=0.38.2",
+    "torch>=2.7.0",
+]
