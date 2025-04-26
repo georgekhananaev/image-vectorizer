@@ -26,12 +26,6 @@ ENV/
 .DS_Store
 *.sublime-*
 
-# Output files
-*.svg
-*.svgz
-!examples/*.svg
-!examples/*.svgz
-
 # Logs and databases
 *.log
 *.sqlite
